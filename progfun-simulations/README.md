@@ -71,7 +71,7 @@ In the beginning, 300 people are equally distributed among the rooms. Each step 
 
 3. When a person moves into a room with an infectious person he might get infected according to the transmissibility rate, unless the person is already infected or immune. A person cannot get infected between moves (this is slightly unrealistic, but will simplify your implementation).
 
-4. hen a person becomes infected, he does not immediately get sick, but enters a phase of incubation in which he is infectious but not sick.
+4. When a person becomes infected, he does not immediately get sick, but enters a phase of incubation in which he is infectious but not sick.
 
 5. After 6 days of becoming infected, a person becomes sick and is therefore visibly infectious.
 

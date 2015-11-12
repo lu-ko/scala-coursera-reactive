@@ -164,7 +164,7 @@ Future.delay(5 seconds) onSuccess {
 
 ### Part 2: An Asynchronous HTTP Server
 
-Finally, you have everything you need to write an asynchronous HTTP Server. The HTTP server will asynchronously wait on some port for incoming HTTP requests and then respond to them by sending some text or HTML back. You will be able to open your browser at the address http://localhost:8191/someRelativepath and see how your server responds to you!
+Finally, you have everything you need to write an asynchronous HTTP Server. The HTTP server will asynchronously wait on some port for incoming HTTP requests and then respond to them by sending some text or HTML back. You will be able to open your browser at the address [http://localhost:8191/someRelativepath](http://localhost:8191/someRelativepath) and see how your server responds to you!
 
 Open the file nodescala.scala. There you will find the following declarations:
 ```scala
@@ -239,6 +239,6 @@ Finally, you can instantiate the server in the file Main.scala:
 4. Create a terminationRequested future that is completed once any of the two futures above complete
 5. Once the terminationRequested completes, print its message, unsubscribe from myServer and print "Bye!"
 
-Hint: where possible, use the previously defined Future factory methods and combinators.
+**Hint:** where possible, use the previously defined Future factory methods and combinators.
 
-Open your browser and type http://localhost:8191/test into the address bar. Congratulations – your server is fully functional!
+Open your browser and type [http://localhost:8191/test](http://localhost:8191/test) into the address bar. Congratulations – your server is fully functional!
