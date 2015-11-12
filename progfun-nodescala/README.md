@@ -224,19 +224,28 @@ This method takes a relativePath at which a request arrives and a request handle
 Finally, method start returns a Subscription that cancels all asynchronous computations at this relative path.
 
 Your task is to implement start using Futures in the following way:
+
 1. create and start an http listener
+
 2. create a cancellation token to run an asynchronous computation (hint: use the Future.run companion method)
+
 3. in this asynchronous computation, while the token is not cancelled, await the next request from the listener and then respond to it asynchronously 
+
 4. have the method start return a subscription that cancels the http listener, the server loop and any responses that are in progress (hint: use one of the Subscription companion methods)
 
 
 #### Instantiating the Server
 
 Finally, you can instantiate the server in the file Main.scala:
+
 1. Create a server myServer on port 8191 and start listening on a relative path /test with a subscription myServerSubscription
+
 2. Create a userInterrupted future that is completed when the user presses ENTER, continued with a message "You entered... " (use the userInput future)
+
 3. Create a timeOut future that is completed after 20 seconds, continued with a message "Server timeout!"
+
 4. Create a terminationRequested future that is completed once any of the two futures above complete
+
 5. Once the terminationRequested completes, print its message, unsubscribe from myServer and print "Bye!"
 
 **Hint:** where possible, use the previously defined Future factory methods and combinators.
