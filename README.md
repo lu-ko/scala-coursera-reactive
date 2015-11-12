@@ -28,15 +28,15 @@ Over the next seven weeks you will learn the fundamentals of this new programmin
 
 * Week 1: **Introduction to Scala and Reactive Programming**
   * Quickcheck
-  * progfun-quickcheck
+  * [progfun-quickcheck](https://github.com/lu-ko/scala-coursera-reactive/tree/master/progfun-quickcheck)
 
 * Week 2: **Discrete Event Simulations**
   * Simulations
-  * progfun-simulations
+  * [progfun-simulations](https://github.com/lu-ko/scala-coursera-reactive/tree/master/progfun-simulations)
 
 * Week 3: **Latency, Futures, Promises, NodeScala**
   * NodeScala
-  * progfun-nodescala
+  * [progfun-nodescala](https://github.com/lu-ko/scala-coursera-reactive/tree/master/progfun-nodescala)
 
 * Week 4-7: ?
   * not done
