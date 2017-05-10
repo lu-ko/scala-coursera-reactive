@@ -4,7 +4,7 @@
 
 **Training:** https://www.coursera.org/course/reactive
 
-**Lector:** Erik Meijer, Martin Odersky, Roland Kuhn
+**Lector (Organization):** Erik Meijer, Martin Odersky, Roland Kuhn (École Polytechnique Fédérale de Lausanne)
 
 **Start Date:** Mon 4 Nov 2013 11:15 AM CET (UTC +0100)
 
